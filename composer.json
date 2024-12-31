@@ -1,25 +1,25 @@
 {
-    "name": "moztopia/laravel-commands",
-    "description": "Custom artisan commands extension for Laravel 11+ ... for lazy people.",
-    "type": "library",
-    "require": {
-        "php": "^8.2",
-        "laravel/framework": "^11.0"
-    },
-    "require-dev": {
-        "php": "^8.2",
-        "laravel/framework": "^11.0"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Moztopia\\LaravelCommands\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "The Monkeys",
-            "email": "monkeys@moztopia.com"
-        }
-    ]
+  "name": "moztopia/commands",
+  "description": "Custom artisan commands extension for Laravel 11+ ... for lazy people.",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "require-dev": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Moztopia\\LaravelCommands\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "The Monkeys",
+      "email": "monkeys@moztopia.com"
+    }
+  ]
 }
